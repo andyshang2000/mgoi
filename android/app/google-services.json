@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "766582371630",
+    "firebase_url": "https://princess-wedding-salon-fe827.firebaseio.com",
+    "project_id": "princess-wedding-salon-fe827",
+    "storage_bucket": "princess-wedding-salon-fe827.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766582371630:android:2caffb9c4e30bd71",
+        "android_client_info": {
+          "package_name": "com.rockplaygames.PrincessWeddingSalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766582371630-mq7spdao0tisce8bb429du23qs9c18oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZjnrathNMtfgbGCGlWW7qOHIWOpWtakw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
