@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="15,15">
+  <displayList>
+    <component id="n8_ksfp" name="n8" src="ksfp1sh" xy="-6,-16" pivot="0.95,0.9" anchor="true">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n6_ksfp" name="n6" src="ksfp1sa" xy="-26,-56" pivot="0.53,0.2">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n1_ksfp" name="n1" src="ksfp1sc" xy="20,-39" pivot="0.5,0.1" anchor="true" rotation="-22">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n5_ksfp" name="n5" src="ksfp1sb" xy="10,-19" pivot="0.5,0.2"/>
+    <component id="n4_ksfp" name="n4" src="ksfp1s9" xy="-10,-19" pivot="0.5,0.2"/>
+    <component id="n0_ksfp" name="n0" src="ksfp1s8" xy="8,-31" pivot="0.5,0.5" anchor="true"/>
+    <component id="n7_ksfp" name="n7" src="ksfp1se" xy="-19,-29" hideByEditor="true">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n3_ksfp" name="n3" src="ksfp0" xy="13,-48" pivot="0.53,0.95" anchor="true">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n2_ksfp" name="n2" src="ksfp1sd" xy="-5,-40" pivot="0.5,0.1" anchor="true" rotation="21">
+      <relation target="n0_ksfp" sidePair="left-left,top-top"/>
+    </component>
+  </displayList>
+  <transition name="run" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Rotation" target="n5_ksfp" tween="true" startValue="0" endValue="-72" duration="6"/>
+    <item time="0" type="Rotation" target="n4_ksfp" tween="true" startValue="0" endValue="59" duration="6"/>
+    <item time="0" type="XY" target="n4_ksfp" tween="true" startValue="-10,-19.5" endValue="-12,-17" duration="6"/>
+    <item time="0" type="XY" target="n0_ksfp" tween="true" startValue="8.5,-31" endValue="8,-23" duration="6"/>
+    <item time="0" type="XY" target="n5_ksfp" tween="true" startValue="10,-19.5" endValue="11,-16" duration="6"/>
+    <item time="6" type="Rotation" target="n5_ksfp" tween="true" startValue="-72" endValue="0" duration="6"/>
+    <item time="6" type="Rotation" target="n4_ksfp" tween="true" startValue="59" endValue="0" duration="6"/>
+    <item time="6" type="XY" target="n5_ksfp" tween="true" startValue="11,-16" endValue="-10,-19" duration="12"/>
+    <item time="6" type="XY" target="n0_ksfp" tween="true" startValue="8,-23" endValue="8.5,-31" duration="6"/>
+    <item time="6" type="XY" target="n4_ksfp" tween="true" startValue="-12,-17" endValue="9,-19" duration="12"/>
+    <item time="12" type="Rotation" target="n5_ksfp" tween="true" startValue="0" endValue="57" duration="6"/>
+    <item time="12" type="Rotation" target="n4_ksfp" tween="true" startValue="0" endValue="-55" duration="6"/>
+    <item time="12" type="XY" target="n0_ksfp" tween="true" startValue="8.5,-31" endValue="8,-23" duration="6"/>
+    <item time="18" type="Rotation" target="n5_ksfp" tween="true" startValue="57" endValue="0" duration="6" ease="Quad.In"/>
+    <item time="18" type="Rotation" target="n4_ksfp" tween="true" startValue="-55" endValue="0" duration="6"/>
+    <item time="18" type="XY" target="n0_ksfp" tween="true" startValue="8,-23" endValue="8.5,-31" duration="6"/>
+    <item time="18" type="XY" target="n4_ksfp" tween="true" startValue="9,-19" endValue="-10,-19" duration="6" ease="Quad.In"/>
+    <item time="18" type="XY" target="n5_ksfp" tween="true" startValue="-10,-19" endValue="10,-19" duration="6" ease="Quad.In"/>
+    <item time="24" type="Rotation" target="n2_ksfp" value="21"/>
+    <item time="24" type="Rotation" target="n1_ksfp" value="-22"/>
+  </transition>
+</component>

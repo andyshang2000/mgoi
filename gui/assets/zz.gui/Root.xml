@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,800">
+  <displayList>
+    <component id="n0_ksfp" name="n0" src="ksfp1sg" xy="96,750"/>
+  </displayList>
+</component>

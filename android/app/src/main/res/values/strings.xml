@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Princess Wedding Salon</string>
-    <string name="back_title">Quit Configm</string>
-    <string name="back_msg">You pressed back button,  sure you want to quit?</string>
-    <string name="back_yes">Yes</string>
-    <string name="back_no">No</string>
-</resources>

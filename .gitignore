@@ -1,1 +1,4 @@
 /android/app/libs/armeabi-v7a/*.so
+/android/.gradle
+/android/.idea
+/android/app/src/main/assets
